@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Cronometro</title>
+  </head>
+  <body>
+    <main class="container d-flex justify-content-center align-items-center">
+      <section>
+        <article class="d-flex justify-content-around my-5 letra">
+          <p id="horas">00</p>
+          <p>:</p>
+          <p id="minutos">00</p>
+          <p>:</p>
+          <p id="segundos">00</p>
+          <p>:</p>
+          <p id="mlsegundos">00</p>
+        </article>
+        <article>
+          <button class="btn btn-primary" onclick="inicio()">Iniciar</button>
+          <button class="btn btn-primary" onclick="Parar()">Detener</button>
+          <button class="btn btn-primary" onclick="Restablecer()">Restablecer</button>       
+        </article>
+    </section>
+    </main>
+
+  </body>
+  <script src="js/cronometro.js"></script>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</html>
